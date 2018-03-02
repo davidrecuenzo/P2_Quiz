@@ -113,8 +113,8 @@ exports.playCmd= rl => {
   })
   	const letsPlay = () =>{
   	if( sinResponder [0] === "undefined" || typeof sinResponder === "undefined" || sinResponder.length === 0){ //comprobar si esta vacio
-  		log("No queda nada por responder");
-  		log("Se ha respondido todo correctamente");
+  		log("No hay nada más que preguntar.");
+  		log("Fin del juego. Aciertos: ", score);
   		rl.prompt();
   	}else{
   		try{
