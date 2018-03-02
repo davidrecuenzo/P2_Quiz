@@ -155,5 +155,6 @@ exports.listCmd = rl => {
 exports.creditsCmd = rl =>{
 	console.log("Autores de la practica: ");
 	console.log("DANIEL");
+	console.log("DAVID");
 	rl.prompt();
 };
