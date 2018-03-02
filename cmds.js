@@ -115,6 +115,7 @@ exports.playCmd= rl => {
   	if( sinResponder [0] === "undefined" || typeof sinResponder === "undefined" || sinResponder.length === 0){ //comprobar si esta vacio
   		log("No hay nada más que preguntar.");
   		log("Fin del juego. Aciertos: ", score);
+		biglog(score,'magenta');
   		rl.prompt();
   	}else{
   		try{
@@ -133,6 +134,7 @@ exports.playCmd= rl => {
   				console.log(colorize("Respuesta incorrecta",'red'));
   				console.log("Numero de aciertos: ",score);
   				console.log("Fin del examen");
+				biglog(score,'magenta');
   				rl.prompt();
   				}
   			});
