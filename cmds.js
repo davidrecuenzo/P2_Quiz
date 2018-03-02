@@ -154,7 +154,6 @@ exports.listCmd = rl => {
 };
 exports.creditsCmd = rl =>{
 	console.log("Autores de la practica: ");
-	console.log("Nombre 1: Daniel Fernández Gordo");
-	console.log("Nombre 2: David Recuenzo Bermejo");
+	console.log("DANIEL");
 	rl.prompt();
 };
