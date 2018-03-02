@@ -128,7 +128,7 @@ exports.playCmd= rl => {
   		rl.question(colorize('Introduzca respuesta :','magenta'),resp =>{ 
   			if(resp.toLowerCase().trim() === quiz.answer.toLowerCase()){
   				score++;
-  				console.log("Numero de aciertos: ",score);
+  				console.log("CORRECTO - Lleva %s aciertos. ",score);
   				letsPlay();
   			}else{
   				console.log(colorize("Respuesta incorrecta",'red'));
